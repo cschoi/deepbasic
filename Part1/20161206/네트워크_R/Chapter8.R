@@ -10,7 +10,7 @@ clqexmp <- graph.formula(A:B:C:D--A:B:C:D,D-E,E-F-G-E)
 plot(clqexmp)
 clique.number(clqexmp)
 cliques(clqexmp)
-#Å¬¸®Å© Å©±â°¡ 3º¸´Ù Å« °Íµé¸¸ ÀÇ¹Ì°¡ ÀÖ´Â µí...
+#Å¬??Å© Å©?â°¡ 3???? Å« ?Íµé¸¸ ?Ç¹Ì°? ?Ö´? ??...
 cliques(clqexmp, min=3)
 maximal.cliques(clqexmp,min=3)
 largest.cliques(clqexmp)
@@ -32,17 +32,19 @@ clqinfo <- data.frame(Nodes=nodes,
                       Largest=lrgclq, 
                       Number=numclq)
 View(clqinfo)
-#³×Æ®¿öÅ©°¡ ³ëµå¼ö°¡ ¸¹¾ÆÁ®µµ Å¬¸®Å© ¼ö´Â º°·Î ´ÃÁö ¾Ê°í
-#°¡Àå Å« Å¬¸®Å© Å©±âµµ º°·Î Ä¿ÁöÁö ¾Ê´Â´Ù. 
-#Å¬¸®Å©´Â ³×Æ®¿öÅ©°¡ Ä¿Áú ¼ö·Ï Èñ¼ÒÇØÁø´Ù....
+#??Æ®??Å©?? ???????? ????ï¿½ï¿½?? Å¬??Å© ???? ???? ???? ?Ê°?
+#???? Å« Å¬??Å© Å©?âµµ ???? Ä¿???? ?Ê´Â´?. 
+#Å¬??Å©?? ??Æ®??Å©?? Ä¿?? ???? ??????????....
 
 #K-Cores
 #a K-Core : a maximal subgraph whrere each vertex is connected
 #           to at least k other vertices in the subgraph
-#ÁÁÀº Á¡ : nested, x°ãÄ§, ¾Ë¾Æº¸±â ½¬¿ò.
+#??ï¿½ï¿½ ï¿½ï¿½ : nested, x??Ä§, ?Ë¾Æº??? ????.
 
 library(statnet)
+install.packages("intergraph")
 library(intergraph)
+data()
 data(DHHS)
 #DHHS : collaoration ties among tobaccon control experts 
 #working across
@@ -117,7 +119,7 @@ par(op)
 #speci???cally the extent to which nodes exhibit clustering 
 #where there is greater density within the clusters 
 #and less density between them 
-#-1/2 ~ 1 ±îÁö
+#-1/2 ~ 1 ????
 
 g1 <- graph.formula(A-B-C-A,D-E-F-D,G-H-I-G,A-D-G-A) 
 V(g1)$grp_good <- c(1,1,1,2,2,2,3,3,3) 
@@ -160,8 +162,8 @@ plot(Facebook,vertex.color=grp_num, vertex.size=20,
      main="Facebook Group") 
 modularity(Facebook,grp_num)
 
-#Modularity¸¦ °è»êÇÏ·Á¸é 
-#¾Ë°íÀÚ ÇÏ´Â ±× ¼Ó¼ºÀÌ 
-#³ëµåº°·Î ¼ýÀÚ·Î Ç¥ÇöµÇ¾î ÀÖ¾î¾ß ÇÏ´Â±º¿ä.....
+#Modularity?? ?????Ï·ï¿½ï¿½? 
+#?Ë°??? ?Ï´? ?? ?Ó¼??? 
+#???åº°?? ???Ú·? Ç¥???Ç¾? ?Ö¾??? ?Ï´Â±???.....
 
-#³¡. 
+#??. 
