@@ -44,5 +44,7 @@
 |2016.12.06|(파이썬 기초) [Ch06 객체와 클래스](http://nbviewer.jupyter.org/github/cschoi/deepbasic/blob/master/Part1/20161206/Py_basic/PythonBasic_Ch06_20161206.ipynb) (나영근) / [Ch07 데이터 주무르기](https://github.com/cschoi/deepbasic/tree/master/Part1/20161206/Py_basic/CHAPTER%207), [Ch08 흘러가는 데이터](https://github.com/cschoi/deepbasic/tree/master/Part1/20161206/Py_basic/CHAPTER%208), [Ch09 웹](https://github.com/cschoi/deepbasic/tree/master/Part1/20161206/Py_basic/CHAPTER%209) (소진석) 
 |          |(모두의 딥러닝) [Neural Network 2: ReLU and 초기값 정하기](https://github.com/cschoi/deepbasic/blob/master/Part1/20161206/TF_%EB%AA%A8%EB%91%90%EC%9D%98%EB%94%A5%EB%9F%AC%EB%8B%9D/lec10.pdf), [tensorflow_MNIST](http://nbviewer.jupyter.org/github/cschoi/deepbasic/blob/master/Part1/20161206/TF_%EB%AA%A8%EB%91%90%EC%9D%98%EB%94%A5%EB%9F%AC%EB%8B%9D/Softmax_NN_relu_droptou_for_MNIST.ipynb) (최창순)    
 |          |(네트워크 R) 8 Subgroups (박지혜)
-
-
+|2016.12.13|(파이썬 기초) [Ch10 시스템](http://nbviewer.jupyter.org/github/cschoi/deepbasic/blob/master/Part1/20161213/Py_basic/10%EC%9E%A5%20%EC%8B%9C%EC%8A%A4%ED%85%9C.ipynb), [Ch11 병행성과 네트워크](http://nbviewer.jupyter.org/github/cschoi/deepbasic/blob/master/Part1/20161213/Py_basic/11%EC%9E%A5%20%EB%B3%91%ED%96%89%EC%84%B1%EA%B3%BC%20%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%81%AC.ipynb) (이동하)
+|          |(파이썬 ML)[Ch7. Combining Different Models for Ensemble Learning](http://nbviewer.jupyter.org/github/cschoi/deepbasic/blob/master/Part1/20161213/Py_ML/Ch7_Ensemble_learning.ipynb) (최창순)
+|          |(모두의 딥러닝) [Recurrent Neural Network(RNN)](https://github.com/cschoi/deepbasic/blob/master/Part1/20161213/TF_%EB%AA%A8%EB%91%90%EC%9D%98%EB%94%A5%EB%9F%AC%EB%8B%9D/lec12.pdf), [tensorflow_RNN](http://nbviewer.jupyter.org/github/cschoi/deepbasic/blob/master/Part1/20161213/TF_%EB%AA%A8%EB%91%90%EC%9D%98%EB%94%A5%EB%9F%AC%EB%8B%9D/RNNsummary.ipynb) (김민호)    
+|          |(네트워크 R) 9 Affiliation Networks (박지혜)
